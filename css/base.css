@@ -9,7 +9,6 @@
 * Reset
 * Color
 * Typography
-* Utility
 
 **/
 
@@ -19,7 +18,6 @@
 ------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,600,800');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 
 /*----------------------*/
@@ -388,9 +386,11 @@ template {
 /*----------------------*/
 /* $Color
 ------------------------*/
-.bg-color-primary{background-color: #6487f5;}
-.bg-color-secondary{background-color: #ff628f;}
-
+.color_brown{background-color: #724938;}
+.color_pink{background-color: #B19693;}
+.color_white{background-color: #fff;}
+.color_black{background-color: #000;}
+.color_green{background-color: #90B44B;}
 
 /*----------------------*/
 /* $Typography

@@ -4,22 +4,18 @@
 
 /**
 
+* Catalog
 * Global
-* Elements
 * Header
-* About
-* Typography
-* Icons
-* Utility
+* Greetings
+* Experience
+* Skill
+* Work
 
 **/
 
 /*----------------------*/
 /* $Global
-------------------------*/
-
-/*----------------------*/
-/* $Elements
 ------------------------*/
 
 /* Background */
@@ -28,21 +24,19 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-	/*background-color: #BF6766;*/
-	/*background-color: #B19693;*/
-	
+	height: 100%;	
 	background-image: url(../images/lavanttal-3038995_1920.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-/*
-.bg:after{
-	content: "";
-	position: absolute;
+
+.spotlight_word{
+	color: #B19693;
+	font-weight: 800;
+	border-bottom: 3px solid rgba(177, 150, 147, 0.8);
 }
-*/
+
 
 .attachment_button{
 	display: inline-block;
@@ -77,12 +71,10 @@
 	border-left-color: rgba(144,180,75,0.7);
 }
 
-.attachment_button:visited{
+.attachment_button:link, visited, hover, active{
+	text-decoration:none; 
 	color: #fff;
 }
-
-
-
 
 
 /*----------------------*/
@@ -224,7 +216,7 @@ ul {
 
 
 /*----------------------*/
-/* $About
+/* $Greetings
 ------------------------*/
 
 .greetings{
@@ -271,6 +263,11 @@ ul {
 }
 
 
+
+/*----------------------*/
+/* $About
+------------------------*/
+
 .intro{
 	background-color: #B19693;
 	padding-top: 12vh;
@@ -299,8 +296,6 @@ ul {
 		padding-top:70%;
 	}
 }
-
-
 
 .intro_icon{
 	margin-top: 24px;
@@ -416,43 +411,6 @@ ul {
 .timeline_card_text a{
 	text-decoration: none;
 }
-
-/*.timeline_card_button{
-	display: inline-block;
-	font-size: 14px;
-	padding-left: 5px;
-	padding-right: 3px;
-	background-color: #90B44B;
-	margin-right: 16px;
-	margin-top: 3px;
-	color: #fff;
-	transition: all 0.3s;
-}
-
-.timeline_card_button:before{
-	content: "";
-	position: absolute;
-	width: 0;
-	border: 14px solid transparent;
-	border-left-color: #90B44B;
-	top:50%;
-	right:-28px;
-	transform: translateY(-50%);
-	transition: all 0.3s;
-}
-
-.timeline_card_button:hover{
-	background-color: rgba(144,180,75,0.7);
-}
-
-.timeline_card_button:hover:before{
-	border-left-color: rgba(144,180,75,0.7);
-}
-
-.timeline_card_button:visited{
-	color: #fff;
-}*/
-
 
 
 /*----------------------*/
